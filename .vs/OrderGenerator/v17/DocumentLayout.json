@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\dev\\OrderGenerator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14E7678F-5806-4391-9235-6B04C5FF4D2B}|src\\OrderGenerator\\OrderGenerator.csproj|e:\\dev\\ordergenerator\\src\\ordergenerator\\services\\fixinitiator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E7678F-5806-4391-9235-6B04C5FF4D2B}|src\\OrderGenerator\\OrderGenerator.csproj|solutionrelative:src\\ordergenerator\\services\\fixinitiator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E7678F-5806-4391-9235-6B04C5FF4D2B}|src\\OrderGenerator\\OrderGenerator.csproj|e:\\dev\\ordergenerator\\src\\ordergenerator\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E7678F-5806-4391-9235-6B04C5FF4D2B}|src\\OrderGenerator\\OrderGenerator.csproj|solutionrelative:src\\ordergenerator\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E7678F-5806-4391-9235-6B04C5FF4D2B}|src\\OrderGenerator\\OrderGenerator.csproj|e:\\dev\\ordergenerator\\src\\ordergenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E7678F-5806-4391-9235-6B04C5FF4D2B}|src\\OrderGenerator\\OrderGenerator.csproj|solutionrelative:src\\ordergenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E7678F-5806-4391-9235-6B04C5FF4D2B}|src\\OrderGenerator\\OrderGenerator.csproj|e:\\dev\\ordergenerator\\src\\ordergenerator\\services\\interfaces\\ifixinitiator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E7678F-5806-4391-9235-6B04C5FF4D2B}|src\\OrderGenerator\\OrderGenerator.csproj|solutionrelative:src\\ordergenerator\\services\\interfaces\\ifixinitiator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E7678F-5806-4391-9235-6B04C5FF4D2B}|src\\OrderGenerator\\OrderGenerator.csproj|e:\\dev\\ordergenerator\\src\\ordergenerator\\initiator.cfg||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{14E7678F-5806-4391-9235-6B04C5FF4D2B}|src\\OrderGenerator\\OrderGenerator.csproj|solutionrelative:src\\ordergenerator\\initiator.cfg||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E7678F-5806-4391-9235-6B04C5FF4D2B}|src\\OrderGenerator\\OrderGenerator.csproj|e:\\dev\\ordergenerator\\src\\ordergenerator\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14E7678F-5806-4391-9235-6B04C5FF4D2B}|src\\OrderGenerator\\OrderGenerator.csproj|solutionrelative:src\\ordergenerator\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E7678F-5806-4391-9235-6B04C5FF4D2B}|src\\OrderGenerator\\OrderGenerator.csproj|e:\\dev\\ordergenerator\\src\\ordergenerator\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E7678F-5806-4391-9235-6B04C5FF4D2B}|src\\OrderGenerator\\OrderGenerator.csproj|solutionrelative:src\\ordergenerator\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "initiator.cfg",
+              "DocumentMoniker": "E:\\dev\\OrderGenerator\\src\\OrderGenerator\\initiator.cfg",
+              "RelativeDocumentMoniker": "src\\OrderGenerator\\initiator.cfg",
+              "ToolTip": "E:\\dev\\OrderGenerator\\src\\OrderGenerator\\initiator.cfg",
+              "RelativeToolTip": "src\\OrderGenerator\\initiator.cfg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-16T19:19:21.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\dev\\OrderGenerator\\src\\OrderGenerator\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "src\\OrderGenerator\\Models\\Order.cs",
+              "ToolTip": "E:\\dev\\OrderGenerator\\src\\OrderGenerator\\Models\\Order.cs",
+              "RelativeToolTip": "src\\OrderGenerator\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T18:26:10.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FixInitiator.cs",
+              "DocumentMoniker": "E:\\dev\\OrderGenerator\\src\\OrderGenerator\\Services\\FixInitiator.cs",
+              "RelativeDocumentMoniker": "src\\OrderGenerator\\Services\\FixInitiator.cs",
+              "ToolTip": "E:\\dev\\OrderGenerator\\src\\OrderGenerator\\Services\\FixInitiator.cs",
+              "RelativeToolTip": "src\\OrderGenerator\\Services\\FixInitiator.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwCIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:37:00.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IFixInitiator.cs",
+              "DocumentMoniker": "E:\\dev\\OrderGenerator\\src\\OrderGenerator\\Services\\Interfaces\\IFixInitiator.cs",
+              "RelativeDocumentMoniker": "src\\OrderGenerator\\Services\\Interfaces\\IFixInitiator.cs",
+              "ToolTip": "E:\\dev\\OrderGenerator\\src\\OrderGenerator\\Services\\Interfaces\\IFixInitiator.cs",
+              "RelativeToolTip": "src\\OrderGenerator\\Services\\Interfaces\\IFixInitiator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:34:34.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "E:\\dev\\OrderGenerator\\src\\OrderGenerator\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "src\\OrderGenerator\\Controllers\\OrderController.cs",
+              "ToolTip": "E:\\dev\\OrderGenerator\\src\\OrderGenerator\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "src\\OrderGenerator\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T12:30:53.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\dev\\OrderGenerator\\src\\OrderGenerator\\Program.cs",
+              "RelativeDocumentMoniker": "src\\OrderGenerator\\Program.cs",
+              "ToolTip": "E:\\dev\\OrderGenerator\\src\\OrderGenerator\\Program.cs",
+              "RelativeToolTip": "src\\OrderGenerator\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T11:26:44.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\dev\\OrderGenerator\\src\\OrderGenerator\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\OrderGenerator\\Views\\Order\\Index.cshtml",
+              "ToolTip": "E:\\dev\\OrderGenerator\\src\\OrderGenerator\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "src\\OrderGenerator\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T18:05:08.251Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

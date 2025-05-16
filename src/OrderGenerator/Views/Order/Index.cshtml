@@ -1,0 +1,64 @@
+﻿@model OrderGenerator.Models.Order
+
+<h2>Nova Ordem</h2>
+
+@if (TempData["Sucesso"] != null || ViewData["Sucesso"] != null)
+{
+    var mensagem = TempData["Sucesso"] != null ? TempData["Sucesso"] : ViewData["Sucesso"];
+
+    <div style="padding-top: 15px"></div>
+
+    <div id="msg_box" class="alert alert-success">
+        <h4 id="msgRetorno">@Html.Raw(mensagem)</h4>
+    </div>
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post">
+
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Symbol"></label>
+                <select asp-for="Symbol" class="form-control">
+                    <option value="">-- Selecione --</option>
+                    <option value="PETR4">PETR4</option>
+                    <option value="VALE3">VALE3</option>
+                    <option value="VIIA4">VIIA4</option>
+                </select>
+                <span asp-validation-for="Symbol" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Side"></label>
+                <select asp-for="Side" class="form-control">
+                    <option value="">-- Selecione --</option>
+                    <option value="BUY">Compra</option>
+                    <option value="SELL">Venda</option>
+                </select>
+                <span asp-validation-for="Side" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Quantity"></label>
+                <input asp-for="Quantity" class="form-control" />
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Price"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Enviar Ordem" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

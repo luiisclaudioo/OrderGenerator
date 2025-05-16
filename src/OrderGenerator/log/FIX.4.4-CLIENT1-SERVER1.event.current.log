@@ -1,0 +1,351 @@
+20250516-18:43:42.747 : Created session
+20250516-18:43:46.478 : Connecting to 127.0.0.1 on port 9877
+20250516-18:43:46.624 : Connection succeeded
+20250516-18:43:46.642 : Initiated logon request
+20250516-18:43:46.685 : Received logout request
+20250516-18:43:46.686 : Sending logout response
+20250516-18:43:46.690 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: Received logout request
+20250516-18:43:46.772 : Session FIX.4.4:CLIENT1->SERVER1 already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.get_Token()
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-18:44:12.827 : Connecting to 127.0.0.1 on port 9877
+20250516-18:44:12.830 : Connection succeeded
+20250516-18:44:12.830 : Initiated logon request
+20250516-18:44:12.834 : Received logout request
+20250516-18:44:12.834 : Sending logout response
+20250516-18:44:12.834 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: Received logout request
+20250516-18:44:12.835 : Session FIX.4.4:CLIENT1->SERVER1 already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.get_Token()
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-18:47:18.324 : Created session
+20250516-18:47:18.341 : Connecting to 127.0.0.1 on port 9877
+20250516-18:47:18.406 : Connection succeeded
+20250516-18:47:18.465 : Initiated logon request
+20250516-18:47:18.475 : Received logout request
+20250516-18:47:18.476 : Sending logout response
+20250516-18:47:18.476 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: Received logout request
+20250516-18:47:18.500 : Session FIX.4.4:CLIENT1->SERVER1 already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.get_Token()
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-18:47:49.051 : Connecting to 127.0.0.1 on port 9877
+20250516-18:47:49.054 : Connection succeeded
+20250516-18:47:49.055 : Initiated logon request
+20250516-18:47:49.057 : Received logout request
+20250516-18:47:49.057 : Sending logout response
+20250516-18:47:49.058 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: Received logout request
+20250516-18:47:49.058 : Session FIX.4.4:CLIENT1->SERVER1 already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.get_Token()
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-18:48:19.394 : Connecting to 127.0.0.1 on port 9877
+20250516-18:48:19.397 : Connection succeeded
+20250516-18:48:19.397 : Initiated logon request
+20250516-18:48:19.400 : Received logout request
+20250516-18:48:19.400 : Sending logout response
+20250516-18:48:19.400 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: Received logout request
+20250516-18:48:19.401 : Session FIX.4.4:CLIENT1->SERVER1 already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.get_Token()
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-18:48:49.658 : Connecting to 127.0.0.1 on port 9877
+20250516-18:48:49.661 : Connection succeeded
+20250516-18:48:49.662 : Initiated logon request
+20250516-18:48:49.665 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: System.Net.Sockets.SocketException (10058): A request to send or receive data was disallowed because the socket had already been shut down in that direction with a previous shutdown call.
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-18:49:19.900 : Connecting to 127.0.0.1 on port 9877
+20250516-18:49:19.903 : Connection succeeded
+20250516-18:49:19.903 : Initiated logon request
+20250516-18:49:19.905 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: System.Net.Sockets.SocketException (10058): A request to send or receive data was disallowed because the socket had already been shut down in that direction with a previous shutdown call.
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-18:49:50.156 : Connecting to 127.0.0.1 on port 9877
+20250516-18:49:50.159 : Connection succeeded
+20250516-18:49:50.159 : Initiated logon request
+20250516-18:49:50.163 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: System.Net.Sockets.SocketException (10058): A request to send or receive data was disallowed because the socket had already been shut down in that direction with a previous shutdown call.
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-18:50:20.430 : Connecting to 127.0.0.1 on port 9877
+20250516-18:50:22.454 : Connection failed: System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:9877
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at QuickFix.Transport.StreamFactory.CreateClientStream(IPEndPoint endpoint, SocketSettings settings, NonSessionLog nonSessionLog)
+   at QuickFix.SocketInitiatorThread.SetupStream()
+   at QuickFix.SocketInitiatorThread.Connect()
+   at QuickFix.Transport.SocketInitiator.SocketInitiatorThreadStart(Object socketInitiatorThread)
+20250516-18:52:36.989 : Created session
+20250516-18:52:37.007 : Connecting to 127.0.0.1 on port 9877
+20250516-18:52:37.251 : Connection succeeded
+20250516-18:52:37.275 : Initiated logon request
+20250516-18:52:37.282 : Received logout request
+20250516-18:52:37.287 : Sending logout response
+20250516-18:52:37.287 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: Received logout request
+20250516-18:52:37.308 : Session FIX.4.4:CLIENT1->SERVER1 already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.get_Token()
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-18:53:07.979 : Connecting to 127.0.0.1 on port 9877
+20250516-18:53:07.983 : Connection succeeded
+20250516-18:53:07.983 : Initiated logon request
+20250516-18:53:07.986 : Received logout request
+20250516-18:53:07.986 : Sending logout response
+20250516-18:53:07.986 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: Received logout request
+20250516-18:53:07.987 : Session FIX.4.4:CLIENT1->SERVER1 already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.get_Token()
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-19:00:18.992 : Created session
+20250516-19:01:03.787 : Connecting to 127.0.0.1 on port 9877
+20250516-19:01:05.996 : Connection failed: System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:9877
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at QuickFix.Transport.StreamFactory.CreateClientStream(IPEndPoint endpoint, SocketSettings settings, NonSessionLog nonSessionLog)
+   at QuickFix.SocketInitiatorThread.SetupStream()
+   at QuickFix.SocketInitiatorThread.Connect()
+   at QuickFix.Transport.SocketInitiator.SocketInitiatorThreadStart(Object socketInitiatorThread)
+20250516-19:01:35.245 : Connecting to 127.0.0.1 on port 9877
+20250516-19:01:36.212 : Connection succeeded
+20250516-19:01:36.800 : Initiated logon request
+20250516-19:01:36.832 : Received logout request
+20250516-19:01:36.834 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at QuickFix.SocketInitiatorThread.Send(String data)
+   at QuickFix.Session.Send(String message)
+   at QuickFix.Session.SendRaw(Message message, UInt64 seqNum)
+   at QuickFix.Session.ImplGenerateLogout(Message other, String text)
+   at QuickFix.Session.GenerateLogout(Message other)
+   at QuickFix.Session.NextLogout(Message logout)
+   at QuickFix.Session.Next(MessageBuilder msgBuilder)
+   at QuickFix.Session.NextMessage(String msgStr)
+   at QuickFix.Session.Next(String msgStr)
+   at QuickFix.SocketInitiatorThread.ProcessStream()
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-19:04:19.995 : Created session
+20250516-19:06:06.240 : Connecting to 127.0.0.1 on port 9877
+20250516-19:06:19.690 : Connection succeeded
+20250516-19:06:19.713 : Initiated logon request
+20250516-19:06:19.727 : Received logout request
+20250516-19:06:19.727 : Sending logout response
+20250516-19:06:19.728 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: Received logout request
+20250516-19:06:19.780 : Session FIX.4.4:CLIENT1->SERVER1 already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.get_Token()
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-19:06:36.918 : Connecting to 127.0.0.1 on port 9877
+20250516-19:06:36.921 : Connection succeeded
+20250516-19:06:36.922 : Initiated logon request
+20250516-19:06:36.924 : Received logout request
+20250516-19:06:36.924 : Sending logout response
+20250516-19:06:36.925 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: Received logout request
+20250516-19:06:36.925 : Session FIX.4.4:CLIENT1->SERVER1 already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.get_Token()
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-19:07:07.154 : Connecting to 127.0.0.1 on port 9877
+20250516-19:07:07.157 : Connection succeeded
+20250516-19:07:07.157 : Initiated logon request
+20250516-19:07:07.160 : Received logout request
+20250516-19:07:07.161 : Sending logout response
+20250516-19:07:07.161 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: Received logout request
+20250516-19:07:07.161 : Session FIX.4.4:CLIENT1->SERVER1 already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.get_Token()
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-19:07:37.424 : Connecting to 127.0.0.1 on port 9877
+20250516-19:07:37.427 : Connection succeeded
+20250516-19:07:37.427 : Initiated logon request
+20250516-19:07:37.430 : Received logout request
+20250516-19:07:37.431 : Sending logout response
+20250516-19:07:37.431 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: Received logout request
+20250516-19:07:37.431 : Session FIX.4.4:CLIENT1->SERVER1 already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.get_Token()
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-19:08:07.673 : Connecting to 127.0.0.1 on port 9877
+20250516-19:08:07.675 : Connection succeeded
+20250516-19:08:07.676 : Initiated logon request
+20250516-19:08:07.678 : Received logout request
+20250516-19:08:07.678 : Sending logout response
+20250516-19:08:07.678 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: Received logout request
+20250516-19:08:07.679 : Session FIX.4.4:CLIENT1->SERVER1 already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.get_Token()
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-19:08:37.939 : Connecting to 127.0.0.1 on port 9877
+20250516-19:08:37.942 : Connection succeeded
+20250516-19:08:37.942 : Initiated logon request
+20250516-19:08:37.945 : Received logout request
+20250516-19:08:37.945 : Sending logout response
+20250516-19:08:37.945 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: Received logout request
+20250516-19:08:37.945 : Session FIX.4.4:CLIENT1->SERVER1 already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.get_Token()
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-19:09:08.241 : Connecting to 127.0.0.1 on port 9877
+20250516-19:09:08.244 : Connection succeeded
+20250516-19:09:08.244 : Initiated logon request
+20250516-19:09:08.247 : Received logout request
+20250516-19:09:08.247 : Sending logout response
+20250516-19:09:08.247 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: Received logout request
+20250516-19:09:08.247 : Session FIX.4.4:CLIENT1->SERVER1 already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.get_Token()
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-19:11:48.477 : Created session
+20250516-19:11:49.967 : Connecting to 127.0.0.1 on port 9877
+20250516-19:11:50.141 : Connection succeeded
+20250516-19:11:50.153 : Initiated logon request
+20250516-19:11:50.194 : Received logout request
+20250516-19:11:50.194 : Sending logout response
+20250516-19:11:50.194 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: Received logout request
+20250516-19:11:50.213 : Session FIX.4.4:CLIENT1->SERVER1 already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.get_Token()
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-19:12:19.337 : Connecting to 127.0.0.1 on port 9877
+20250516-19:12:19.341 : Connection succeeded
+20250516-19:12:19.341 : Initiated logon request
+20250516-19:12:19.343 : Received logout request
+20250516-19:12:19.344 : Sending logout response
+20250516-19:12:19.344 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: Received logout request
+20250516-19:12:19.344 : Session FIX.4.4:CLIENT1->SERVER1 already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.get_Token()
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-19:12:50.407 : Created session
+20250516-19:12:50.430 : Connecting to 127.0.0.1 on port 9877
+20250516-19:12:50.480 : Connection succeeded
+20250516-19:12:54.959 : Initiated logon request
+20250516-19:12:57.413 : Received logout request
+20250516-19:12:59.404 : Sending logout response
+20250516-19:12:59.405 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: Received logout request
+20250516-19:13:11.566 : Session FIX.4.4:CLIENT1->SERVER1 already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.get_Token()
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-19:13:20.592 : Connecting to 127.0.0.1 on port 9877
+20250516-19:13:20.596 : Connection succeeded
+20250516-19:13:24.529 : Initiated logon request
+20250516-19:13:26.381 : Received logout request
+20250516-19:13:29.284 : Sending logout response
+20250516-19:13:29.284 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: Received logout request
+20250516-19:13:32.585 : Session FIX.4.4:CLIENT1->SERVER1 already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.get_Token()
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-19:43:56.496 : Created session
+20250516-19:43:56.520 : Connecting to 127.0.0.1 on port 9877
+20250516-19:44:00.232 : Connection failed: System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:9877
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at QuickFix.Transport.StreamFactory.CreateClientStream(IPEndPoint endpoint, SocketSettings settings, NonSessionLog nonSessionLog)
+   at QuickFix.SocketInitiatorThread.SetupStream()
+   at QuickFix.SocketInitiatorThread.Connect()
+   at QuickFix.Transport.SocketInitiator.SocketInitiatorThreadStart(Object socketInitiatorThread)
+20250516-20:18:05.737 : Created session
+20250516-20:18:10.614 : Connecting to 127.0.0.1 on port 9877
+20250516-20:18:10.683 : Connection succeeded
+20250516-20:18:11.743 : Initiated logon request
+20250516-20:18:13.688 : Received logout request
+20250516-20:18:15.576 : Sending logout response
+20250516-20:18:15.576 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: Received logout request
+20250516-20:18:17.037 : Session FIX.4.4:CLIENT1->SERVER1 already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.get_Token()
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-20:18:38.233 : Connecting to 127.0.0.1 on port 9877
+20250516-20:18:38.236 : Connection succeeded
+20250516-20:18:45.766 : Initiated logon request
+20250516-20:18:46.628 : Received logout request
+20250516-20:18:47.822 : Sending logout response
+20250516-20:18:47.822 : Session FIX.4.4:CLIENT1->SERVER1 disconnecting: Received logout request
+20250516-20:18:49.004 : Session FIX.4.4:CLIENT1->SERVER1 already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.get_Token()
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250516-20:19:09.211 : Connecting to 127.0.0.1 on port 9877
+20250516-20:19:11.266 : Connection failed: System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:9877
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at QuickFix.Transport.StreamFactory.CreateClientStream(IPEndPoint endpoint, SocketSettings settings, NonSessionLog nonSessionLog)
+   at QuickFix.SocketInitiatorThread.SetupStream()
+   at QuickFix.SocketInitiatorThread.Connect()
+   at QuickFix.Transport.SocketInitiator.SocketInitiatorThreadStart(Object socketInitiatorThread)
+20250516-20:19:39.458 : Connecting to 127.0.0.1 on port 9877
+20250516-20:19:41.488 : Connection failed: System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:9877
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at QuickFix.Transport.StreamFactory.CreateClientStream(IPEndPoint endpoint, SocketSettings settings, NonSessionLog nonSessionLog)
+   at QuickFix.SocketInitiatorThread.SetupStream()
+   at QuickFix.SocketInitiatorThread.Connect()
+   at QuickFix.Transport.SocketInitiator.SocketInitiatorThreadStart(Object socketInitiatorThread)
+20250516-20:20:09.715 : Connecting to 127.0.0.1 on port 9877
+20250516-20:20:11.774 : Connection failed: System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:9877
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at QuickFix.Transport.StreamFactory.CreateClientStream(IPEndPoint endpoint, SocketSettings settings, NonSessionLog nonSessionLog)
+   at QuickFix.SocketInitiatorThread.SetupStream()
+   at QuickFix.SocketInitiatorThread.Connect()
+   at QuickFix.Transport.SocketInitiator.SocketInitiatorThreadStart(Object socketInitiatorThread)
+20250516-20:20:39.972 : Connecting to 127.0.0.1 on port 9877
+20250516-20:20:42.023 : Connection failed: System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:9877
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at QuickFix.Transport.StreamFactory.CreateClientStream(IPEndPoint endpoint, SocketSettings settings, NonSessionLog nonSessionLog)
+   at QuickFix.SocketInitiatorThread.SetupStream()
+   at QuickFix.SocketInitiatorThread.Connect()
+   at QuickFix.Transport.SocketInitiator.SocketInitiatorThreadStart(Object socketInitiatorThread)
+20250516-20:21:10.247 : Connecting to 127.0.0.1 on port 9877
+20250516-20:21:12.292 : Connection failed: System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:9877
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at QuickFix.Transport.StreamFactory.CreateClientStream(IPEndPoint endpoint, SocketSettings settings, NonSessionLog nonSessionLog)
+   at QuickFix.SocketInitiatorThread.SetupStream()
+   at QuickFix.SocketInitiatorThread.Connect()
+   at QuickFix.Transport.SocketInitiator.SocketInitiatorThreadStart(Object socketInitiatorThread)
+20250516-20:21:40.472 : Connecting to 127.0.0.1 on port 9877
+20250516-20:21:42.511 : Connection failed: System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:9877
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at QuickFix.Transport.StreamFactory.CreateClientStream(IPEndPoint endpoint, SocketSettings settings, NonSessionLog nonSessionLog)
+   at QuickFix.SocketInitiatorThread.SetupStream()
+   at QuickFix.SocketInitiatorThread.Connect()
+   at QuickFix.Transport.SocketInitiator.SocketInitiatorThreadStart(Object socketInitiatorThread)
+20250516-20:22:10.764 : Connecting to 127.0.0.1 on port 9877
+20250516-20:22:12.798 : Connection failed: System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:9877
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at QuickFix.Transport.StreamFactory.CreateClientStream(IPEndPoint endpoint, SocketSettings settings, NonSessionLog nonSessionLog)
+   at QuickFix.SocketInitiatorThread.SetupStream()
+   at QuickFix.SocketInitiatorThread.Connect()
+   at QuickFix.Transport.SocketInitiator.SocketInitiatorThreadStart(Object socketInitiatorThread)
+20250516-20:22:40.984 : Connecting to 127.0.0.1 on port 9877
+20250516-20:22:43.009 : Connection failed: System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:9877
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at QuickFix.Transport.StreamFactory.CreateClientStream(IPEndPoint endpoint, SocketSettings settings, NonSessionLog nonSessionLog)
+   at QuickFix.SocketInitiatorThread.SetupStream()
+   at QuickFix.SocketInitiatorThread.Connect()
+   at QuickFix.Transport.SocketInitiator.SocketInitiatorThreadStart(Object socketInitiatorThread)
+20250516-20:23:11.213 : Connecting to 127.0.0.1 on port 9877
+20250516-20:23:13.251 : Connection failed: System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:9877
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at QuickFix.Transport.StreamFactory.CreateClientStream(IPEndPoint endpoint, SocketSettings settings, NonSessionLog nonSessionLog)
+   at QuickFix.SocketInitiatorThread.SetupStream()
+   at QuickFix.SocketInitiatorThread.Connect()
+   at QuickFix.Transport.SocketInitiator.SocketInitiatorThreadStart(Object socketInitiatorThread)
+20250516-20:23:41.435 : Connecting to 127.0.0.1 on port 9877
+20250516-20:23:43.456 : Connection failed: System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:9877
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at QuickFix.Transport.StreamFactory.CreateClientStream(IPEndPoint endpoint, SocketSettings settings, NonSessionLog nonSessionLog)
+   at QuickFix.SocketInitiatorThread.SetupStream()
+   at QuickFix.SocketInitiatorThread.Connect()
+   at QuickFix.Transport.SocketInitiator.SocketInitiatorThreadStart(Object socketInitiatorThread)
