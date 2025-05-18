@@ -1,16 +1,33 @@
 ﻿@model OrderGenerator.Models.Order
+@{
+    ViewData["Title"] = "Nova Ordem";
+}
+<h2>@ViewData["Title"]</h2>
 
-<h2>Nova Ordem</h2>
-
-@if (TempData["Sucesso"] != null || ViewData["Sucesso"] != null)
+@if (TempData["Sucesso"] != null)
 {
-    var mensagem = TempData["Sucesso"] != null ? TempData["Sucesso"] : ViewData["Sucesso"];
-
+    var mensagem = TempData["Sucesso"];   
+    
     <div style="padding-top: 15px"></div>
-
     <div id="msg_box" class="alert alert-success">
         <h4 id="msgRetorno">@Html.Raw(mensagem)</h4>
     </div>
+}
+
+@if (TempData["Erro"] != null)
+{
+    var mensagem = TempData["Erro"];
+
+    <div style="padding-top: 15px"></div>
+    <div id="msg_error" class="alert alert-danger">
+        <h4 id="msgError">@Html.Raw(mensagem)</h4>
+    </div>
+}
+
+@if (!(ViewBag.IsConnected ?? false))
+{
+    <div style="padding-top: 15px"></div>
+    <div class="alert alert-warning">Aguardando conexão FIX...</div>
 }
 
 <div class="row">

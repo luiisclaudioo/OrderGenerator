@@ -1,20 +1,22 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OrderGenerator.Models;
-using OrderGenerator.Services.Interfaces;
+using OrderGenerator.Services;
 
 namespace OrderGenerator.Controllers
 {
     public class OrderController : Controller
     {
-        private readonly IFixInitiator _fix;
+        private readonly FixInitiator _fix;
 
-        public OrderController(IFixInitiator fix)
+        public OrderController(FixInitiator fix)
         {
-            _fix = fix;            
+            _fix = fix;
+            _fix.Start();
         }
         public IActionResult Index()
-        {            
+        {
+            ViewBag.IsConnected = _fix.IsConnected;
             return View();
         }
 
@@ -23,14 +25,26 @@ namespace OrderGenerator.Controllers
         {
             try
             {
-                if (ModelState.IsValid)
+                if (!ModelState.IsValid)
                 {
-                    //$"Ordem enviada: Símbolo: {model.Symbol}, Lado: {model.Side}, Quantidade: {model.Quantity}, Preço: {model.Price}";
-                    TempData["Sucesso"] = await _fix.SendNewOrderAsync(model);
-                    return RedirectToAction(nameof(Index));
+                    ViewBag.IsConnected = _fix.IsConnected;
+                    return View(model);
                 }
 
-                return View(model);
+                try
+                {
+                    var retorno = await _fix.SendNewOrderAsync(model);
+                    if (!string.IsNullOrEmpty(retorno) && retorno.Contains("ACEITA"))
+                        TempData["Sucesso"] = retorno;
+                    else
+                        TempData["Erro"] = retorno;
+                }
+                catch (Exception ex)
+                {
+                    TempData["Erro"] = $"Erro ao enviar ordem: {ex.Message}";
+                }
+
+                return RedirectToAction(nameof(Index));
             }
             catch
             {

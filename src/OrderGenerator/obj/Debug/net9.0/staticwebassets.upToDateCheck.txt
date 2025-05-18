@@ -61,6 +61,7 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+E:\dev\OrderGenerator\src\OrderGenerator\wwwroot\lib\jquery\LICENSE.txt
 E:\dev\OrderGenerator\src\OrderGenerator\wwwroot\css\site.css
 E:\dev\OrderGenerator\src\OrderGenerator\wwwroot\favicon.ico
 E:\dev\OrderGenerator\src\OrderGenerator\wwwroot\js\site.js
@@ -122,4 +123,3 @@ E:\dev\OrderGenerator\src\OrderGenerator\wwwroot\lib\jquery\dist\jquery.min.map
 E:\dev\OrderGenerator\src\OrderGenerator\wwwroot\lib\jquery\dist\jquery.slim.js
 E:\dev\OrderGenerator\src\OrderGenerator\wwwroot\lib\jquery\dist\jquery.slim.min.js
 E:\dev\OrderGenerator\src\OrderGenerator\wwwroot\lib\jquery\dist\jquery.slim.min.map
-E:\dev\OrderGenerator\src\OrderGenerator\wwwroot\lib\jquery\LICENSE.txt

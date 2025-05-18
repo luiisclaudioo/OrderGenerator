@@ -1,15 +1,10 @@
-using OrderGenerator.Services.Interfaces;
 using OrderGenerator.Services;
-using QuickFix.Logger;
-using QuickFix.Store;
-using QuickFix;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
-builder.Services.AddSingleton<IFixInitiator, FixInitiator>();
+builder.Services.AddSingleton<FixInitiator>();
 
 var app = builder.Build();
 
